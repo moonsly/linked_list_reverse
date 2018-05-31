@@ -34,7 +34,8 @@ True
 ```
 
 # Run tests:
-linked_list$ python ./tests.py -v
+```
+/linked_list_reverse$ python ./tests.py -v
 test_init_all_variants (__main__.LinkedListTest) ... ok
 test_init_empty_llist (__main__.LinkedListTest) ... ok
 test_push_pop (__main__.LinkedListTest) ... ok
@@ -44,4 +45,4 @@ test_reverse (__main__.LinkedListTest) ... ok
 Ran 4 tests in 0.034s
 
 OK
-
+```
