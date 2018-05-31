@@ -2,11 +2,14 @@
 Python implementation of classic linked list structure with method to get reversed linked list within O(N) complexity.
 
 Functionality:
-1. Initialize linked list via val/nxt or via passing a list to constructor
-LinkedList(1, None)
-LinkedList([1, 2, 3, {"N"}])
+1. Initialize linked list via val/nxt attributes or via passing a list to constructor
+```
+l = LinkedList(1, None)
+l = LinkedList([1, 2, 3, {"N"}])
+```
 
 2. Push/pop last element of linked list:
+```
 >>> ll = LinkedList([1, 2, 3, {"N"}])
 >>> print(ll.pop_last())
 {"N"}
@@ -18,14 +21,17 @@ LinkedList([1, 2, 3, {"N"}])
 True
 >>> print(ll)
 [1, 2, 3]
+```
 
 3. Get reversed linked list:
+```
 >>> from linked_list_reverse import LinkedList
 >>> l = LinkedList([1, 2, 3])
 >>> list(l.reverse())
 [3, 2, 1]
 >>> list(l.reverse().reverse())
 [1, 2, 3]
+```
 
 # Run tests:
 linked_list$ python ./tests.py -v
