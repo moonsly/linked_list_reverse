@@ -17,7 +17,7 @@ l = LinkedList([1, 2, 3, {"N"}])
 [1, 2, 3]
 
 >>> ll = LinkedList([1, 2])
->>> print(ll.push_last())
+>>> print(ll.push_last(3))
 True
 >>> print(ll)
 [1, 2, 3]
